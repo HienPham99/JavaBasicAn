@@ -6,7 +6,7 @@ public class DieuKienIfElse {
         int age = 26;
         String name ="Auto";
         String message ="add category successfully";
-        //Dùng hàm "equals": để so sánh bằng
+        //Dùng hàm "equals": để so sánh bằng (không nên dùng dấu ==)
         //Dùng hàm "contain": để so sánh chứa
         if (age >=20 && (name.equals("Auto") ||message.contains("successfully"))) {
             System.out.println("Bạn đã trưởng thành và thành công.");
